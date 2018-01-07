@@ -1,0 +1,233 @@
+
+{
+    "nodes": [
+              {
+              "node_level": 0,
+              "name": "美原中学",
+              "subnodes": [
+                           {
+                           "node_level": 1,
+                           "name": "高一",
+                           "subnodes": [
+                                        {
+                                        "node_level": 2,
+                                        "name": "高一（1）班",
+                                        "subnodes": [
+                                                     {
+                                                     "node_level": 3,
+                                                     "name": "韩梅梅",
+                                                     "subnodes": []
+                                                     },
+                                                     {
+                                                     "node_level": 3,
+                                                     "name": "李雷雷",
+                                                     "subnodes": []
+                                                     }
+                                                     ]
+                                        },
+                                        {
+                                        "node_level": 2,
+                                        "name": "高一（2）班",
+                                        "subnodes": [
+                                                     {
+                                                     "node_level": 3,
+                                                     "name": "韩梅梅",
+                                                     "subnodes": []
+                                                     },
+                                                     {
+                                                     "node_level": 3,
+                                                     "name": "李雷雷",
+                                                     "subnodes": []
+                                                     }
+                                                     ]
+                                        }
+                                        ]
+                           },
+                           {
+                           "node_level": 1,
+                           "name": "高二",
+                           "subnodes": [
+                                        {
+                                        "node_level": 2,
+                                        "name": "高二（3）班",
+                                        "subnodes": []
+                                        },
+                                        {
+                                        "node_level": 2,
+                                        "name": "高二（1）班",
+                                        "subnodes": []
+                                        }
+                                        ]
+                           },
+                           {
+                           "node_level": 1,
+                           "name": "高三",
+                           "subnodes": [
+                                        {
+                                        "node_level": 2,
+                                        "name": "高三（1）班",
+                                        "subnodes": []
+                                        },
+                                        {
+                                        "node_level": 2,
+                                        "name": "高三（2）班",
+                                        "subnodes": []
+                                        }
+                                        ]
+                           }
+                           ]
+              },
+              {
+              "node_level": 0,
+              "name": "逸山中学",
+              "subnodes": [
+                           {
+                           "node_level": 1,
+                           "name": "高一",
+                           "subnodes": [
+                                        {
+                                        "node_level": 2,
+                                        "name": "高一（1）班",
+                                        "subnodes": [
+                                                     {
+                                                     "node_level": 3,
+                                                     "name": "韩梅梅",
+                                                     "subnodes": []
+                                                     },
+                                                     {
+                                                     "node_level": 3,
+                                                     "name": "李雷雷",
+                                                     "subnodes": []
+                                                     }
+                                                     ]
+                                        },
+                                        {
+                                        "node_level": 2,
+                                        "name": "高一（2）班",
+                                        "subnodes": [
+                                                     {
+                                                     "node_level": 3,
+                                                     "name": "韩梅梅",
+                                                     "subnodes": []
+                                                     },
+                                                     {
+                                                     "node_level": 3,
+                                                     "name": "李雷雷",
+                                                     "subnodes": []
+                                                     }
+                                                     ]
+                                        }
+                                        ]
+                           },
+                           {
+                           "node_level": 1,
+                           "name": "高二",
+                           "subnodes": [
+                                        {
+                                        "node_level": 2,
+                                        "name": "高二（3）班",
+                                        "subnodes": []
+                                        },
+                                        {
+                                        "node_level": 2,
+                                        "name": "高二（1）班",
+                                        "subnodes": []
+                                        }
+                                        ]
+                           },
+                           {
+                           "node_level": 1,
+                           "name": "高三",
+                           "subnodes": [
+                                        {
+                                        "node_level": 2,
+                                        "name": "高三（1）班",
+                                        "subnodes": []
+                                        },
+                                        {
+                                        "node_level": 2,
+                                        "name": "高三（2）班",
+                                        "subnodes": []
+                                        }
+                                        ]
+                           }
+                           ]
+              
+              },
+              {
+              "node_level": 0,
+              "name": "流曲中学","subnodes": [
+                                          {
+                                          "node_level": 1,
+                                          "name": "高一",
+                                          "subnodes": [
+                                                       {
+                                                       "node_level": 2,
+                                                       "name": "高一（1）班",
+                                                       "subnodes": [
+                                                                    {
+                                                                    "node_level": 3,
+                                                                    "name": "韩梅梅",
+                                                                    "subnodes": []
+                                                                    },
+                                                                    {
+                                                                    "node_level": 3,
+                                                                    "name": "李雷雷",
+                                                                    "subnodes": []
+                                                                    }
+                                                                    ]
+                                                       },
+                                                       {
+                                                       "node_level": 2,
+                                                       "name": "高一（2）班",
+                                                       "subnodes": [
+                                                                    {
+                                                                    "node_level": 3,
+                                                                    "name": "韩梅梅",
+                                                                    "subnodes": []
+                                                                    },
+                                                                    {
+                                                                    "node_level": 3,
+                                                                    "name": "李雷雷",
+                                                                    "subnodes": []
+                                                                    }
+                                                                    ]
+                                                       }
+                                                       ]
+                                          },
+                                          {
+                                          "node_level": 1,
+                                          "name": "高二",
+                                          "subnodes": [
+                                                       {
+                                                       "node_level": 2,
+                                                       "name": "高二（3）班",
+                                                       "subnodes": []
+                                                       },
+                                                       {
+                                                       "node_level": 2,
+                                                       "name": "高二（1）班",
+                                                       "subnodes": []
+                                                       }
+                                                       ]
+                                          },
+                                          {
+                                          "node_level": 1,
+                                          "name": "高三",
+                                          "subnodes": [
+                                                       {
+                                                       "node_level": 2,
+                                                       "name": "高三（1）班",
+                                                       "subnodes": []
+                                                       },
+                                                       {
+                                                       "node_level": 2,
+                                                       "name": "高三（2）班",
+                                                       "subnodes": []
+                                                       }
+                                                       ]
+                                          }
+                                          ]
+              }
+              ]
+}
