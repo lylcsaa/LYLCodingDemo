@@ -4,7 +4,7 @@
 树形选择器
 --------
 ## 效果图片
-![](https://github.com/lylcsaa/LYLCodingDemo/blob/master/kline.png?raw=true)  
+![](https://github.com/lylcsaa/LYLCodingDemo/blob/master/list.png?raw=true)  
 ## 使用方法
 .1,json数据结构如下
 ```json
