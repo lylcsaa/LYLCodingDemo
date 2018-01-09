@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2405CCF82004AA930092F12A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CCF72004AA930092F12A /* AppDelegate.m */; };
+		2405CCFB2004AA930092F12A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CCFA2004AA930092F12A /* ViewController.m */; };
+		2405CCFE2004AA930092F12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2405CCFC2004AA930092F12A /* Main.storyboard */; };
+		2405CD002004AA930092F12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2405CCFF2004AA930092F12A /* Assets.xcassets */; };
+		2405CD032004AA930092F12A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2405CD012004AA930092F12A /* LaunchScreen.storyboard */; };
+		2405CD062004AA930092F12A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD052004AA930092F12A /* main.m */; };
+		2405CD102004B99F0092F12A /* YLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD0F2004B99F0092F12A /* YLBaseViewController.m */; };
+		2405CD132004B9C90092F12A /* YLAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD122004B9C90092F12A /* YLAnimal.m */; };
+		2405CD172004BD920092F12A /* YLElphent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD162004BD920092F12A /* YLElphent.m */; };
+		2405CD1A2004BDDB0092F12A /* YLLion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD192004BDDB0092F12A /* YLLion.m */; };
+		2405CD1D2004BDEF0092F12A /* YLTiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD1C2004BDEF0092F12A /* YLTiger.m */; };
+		2405CD202004BE000092F12A /* YLWolf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD1F2004BE000092F12A /* YLWolf.m */; };
+		2405CD232004BE280092F12A /* YLDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD222004BE280092F12A /* YLDog.m */; };
+		2405CD262004BE320092F12A /* YLCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD252004BE320092F12A /* YLCat.m */; };
+		2405CD292004BE460092F12A /* YLMouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD282004BE460092F12A /* YLMouse.m */; };
+		2405CD2C2004BE710092F12A /* YLLeopard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD2B2004BE710092F12A /* YLLeopard.m */; };
+		2405CD2F2004D3260092F12A /* YLChessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD2E2004D3260092F12A /* YLChessViewController.m */; };
+		2405CD342004D6490092F12A /* YLChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD332004D6490092F12A /* YLChessView.m */; };
+		2405CD372004E38F0092F12A /* YLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD362004E38F0092F12A /* YLImageView.m */; };
+		2405CD3B20050FF10092F12A /* GameClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD3A20050FF10092F12A /* GameClass.m */; };
+		2405CD3E2005100B0092F12A /* RedChess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD3D2005100B0092F12A /* RedChess.m */; };
+		2405CD412005101A0092F12A /* BlueChess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405CD402005101A0092F12A /* BlueChess.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2405CCF32004AA930092F12A /* YLAnimalChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAnimalChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2405CCF62004AA930092F12A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2405CCF72004AA930092F12A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2405CCF92004AA930092F12A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2405CCFA2004AA930092F12A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2405CCFD2004AA930092F12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2405CCFF2004AA930092F12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2405CD022004AA930092F12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2405CD042004AA930092F12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2405CD052004AA930092F12A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2405CD0E2004B99F0092F12A /* YLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseViewController.h; sourceTree = "<group>"; };
+		2405CD0F2004B99F0092F12A /* YLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBaseViewController.m; sourceTree = "<group>"; };
+		2405CD112004B9C90092F12A /* YLAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAnimal.h; sourceTree = "<group>"; };
+		2405CD122004B9C90092F12A /* YLAnimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAnimal.m; sourceTree = "<group>"; };
+		2405CD152004BD920092F12A /* YLElphent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLElphent.h; sourceTree = "<group>"; };
+		2405CD162004BD920092F12A /* YLElphent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLElphent.m; sourceTree = "<group>"; };
+		2405CD182004BDDB0092F12A /* YLLion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLion.h; sourceTree = "<group>"; };
+		2405CD192004BDDB0092F12A /* YLLion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLion.m; sourceTree = "<group>"; };
+		2405CD1B2004BDEF0092F12A /* YLTiger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLTiger.h; sourceTree = "<group>"; };
+		2405CD1C2004BDEF0092F12A /* YLTiger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLTiger.m; sourceTree = "<group>"; };
+		2405CD1E2004BE000092F12A /* YLWolf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLWolf.h; sourceTree = "<group>"; };
+		2405CD1F2004BE000092F12A /* YLWolf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWolf.m; sourceTree = "<group>"; };
+		2405CD212004BE280092F12A /* YLDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLDog.h; sourceTree = "<group>"; };
+		2405CD222004BE280092F12A /* YLDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLDog.m; sourceTree = "<group>"; };
+		2405CD242004BE320092F12A /* YLCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCat.h; sourceTree = "<group>"; };
+		2405CD252004BE320092F12A /* YLCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCat.m; sourceTree = "<group>"; };
+		2405CD272004BE460092F12A /* YLMouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLMouse.h; sourceTree = "<group>"; };
+		2405CD282004BE460092F12A /* YLMouse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLMouse.m; sourceTree = "<group>"; };
+		2405CD2A2004BE710092F12A /* YLLeopard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLeopard.h; sourceTree = "<group>"; };
+		2405CD2B2004BE710092F12A /* YLLeopard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLeopard.m; sourceTree = "<group>"; };
+		2405CD2D2004D3260092F12A /* YLChessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLChessViewController.h; sourceTree = "<group>"; };
+		2405CD2E2004D3260092F12A /* YLChessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLChessViewController.m; sourceTree = "<group>"; };
+		2405CD322004D6490092F12A /* YLChessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLChessView.h; sourceTree = "<group>"; };
+		2405CD332004D6490092F12A /* YLChessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLChessView.m; sourceTree = "<group>"; };
+		2405CD352004E38F0092F12A /* YLImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLImageView.h; sourceTree = "<group>"; };
+		2405CD362004E38F0092F12A /* YLImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLImageView.m; sourceTree = "<group>"; };
+		2405CD3920050FF10092F12A /* GameClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameClass.h; sourceTree = "<group>"; };
+		2405CD3A20050FF10092F12A /* GameClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameClass.m; sourceTree = "<group>"; };
+		2405CD3C2005100B0092F12A /* RedChess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedChess.h; sourceTree = "<group>"; };
+		2405CD3D2005100B0092F12A /* RedChess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedChess.m; sourceTree = "<group>"; };
+		2405CD3F2005101A0092F12A /* BlueChess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueChess.h; sourceTree = "<group>"; };
+		2405CD402005101A0092F12A /* BlueChess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueChess.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2405CCF02004AA930092F12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2405CCEA2004AA930092F12A = {
+			isa = PBXGroup;
+			children = (
+				2405CCF52004AA930092F12A /* YLAnimalChess */,
+				2405CCF42004AA930092F12A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2405CCF42004AA930092F12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2405CCF32004AA930092F12A /* YLAnimalChess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2405CCF52004AA930092F12A /* YLAnimalChess */ = {
+			isa = PBXGroup;
+			children = (
+				2405CD0D2004B9590092F12A /* PlayChess */,
+				2405CD0C2004B93C0092F12A /* Base */,
+				2405CCF62004AA930092F12A /* AppDelegate.h */,
+				2405CCF72004AA930092F12A /* AppDelegate.m */,
+				2405CCF92004AA930092F12A /* ViewController.h */,
+				2405CCFA2004AA930092F12A /* ViewController.m */,
+				2405CCFC2004AA930092F12A /* Main.storyboard */,
+				2405CCFF2004AA930092F12A /* Assets.xcassets */,
+				2405CD012004AA930092F12A /* LaunchScreen.storyboard */,
+				2405CD042004AA930092F12A /* Info.plist */,
+				2405CD052004AA930092F12A /* main.m */,
+			);
+			path = YLAnimalChess;
+			sourceTree = "<group>";
+		};
+		2405CD0C2004B93C0092F12A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2405CD142004BD470092F12A /* Animals */,
+				2405CD0E2004B99F0092F12A /* YLBaseViewController.h */,
+				2405CD0F2004B99F0092F12A /* YLBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2405CD0D2004B9590092F12A /* PlayChess */ = {
+			isa = PBXGroup;
+			children = (
+				2405CD3820050FCB0092F12A /* GameClass */,
+				2405CD312004D5F10092F12A /* Views */,
+				2405CD302004D5D10092F12A /* ViewControllers */,
+			);
+			path = PlayChess;
+			sourceTree = "<group>";
+		};
+		2405CD142004BD470092F12A /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				2405CD112004B9C90092F12A /* YLAnimal.h */,
+				2405CD122004B9C90092F12A /* YLAnimal.m */,
+				2405CD152004BD920092F12A /* YLElphent.h */,
+				2405CD162004BD920092F12A /* YLElphent.m */,
+				2405CD182004BDDB0092F12A /* YLLion.h */,
+				2405CD192004BDDB0092F12A /* YLLion.m */,
+				2405CD1B2004BDEF0092F12A /* YLTiger.h */,
+				2405CD1C2004BDEF0092F12A /* YLTiger.m */,
+				2405CD1E2004BE000092F12A /* YLWolf.h */,
+				2405CD1F2004BE000092F12A /* YLWolf.m */,
+				2405CD212004BE280092F12A /* YLDog.h */,
+				2405CD222004BE280092F12A /* YLDog.m */,
+				2405CD242004BE320092F12A /* YLCat.h */,
+				2405CD252004BE320092F12A /* YLCat.m */,
+				2405CD272004BE460092F12A /* YLMouse.h */,
+				2405CD282004BE460092F12A /* YLMouse.m */,
+				2405CD2A2004BE710092F12A /* YLLeopard.h */,
+				2405CD2B2004BE710092F12A /* YLLeopard.m */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		2405CD302004D5D10092F12A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2405CD2D2004D3260092F12A /* YLChessViewController.h */,
+				2405CD2E2004D3260092F12A /* YLChessViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2405CD312004D5F10092F12A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2405CD322004D6490092F12A /* YLChessView.h */,
+				2405CD332004D6490092F12A /* YLChessView.m */,
+				2405CD352004E38F0092F12A /* YLImageView.h */,
+				2405CD362004E38F0092F12A /* YLImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2405CD3820050FCB0092F12A /* GameClass */ = {
+			isa = PBXGroup;
+			children = (
+				2405CD3920050FF10092F12A /* GameClass.h */,
+				2405CD3A20050FF10092F12A /* GameClass.m */,
+				2405CD3C2005100B0092F12A /* RedChess.h */,
+				2405CD3D2005100B0092F12A /* RedChess.m */,
+				2405CD3F2005101A0092F12A /* BlueChess.h */,
+				2405CD402005101A0092F12A /* BlueChess.m */,
+			);
+			path = GameClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2405CCF22004AA930092F12A /* YLAnimalChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2405CD092004AA930092F12A /* Build configuration list for PBXNativeTarget "YLAnimalChess" */;
+			buildPhases = (
+				2405CCEF2004AA930092F12A /* Sources */,
+				2405CCF02004AA930092F12A /* Frameworks */,
+				2405CCF12004AA930092F12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLAnimalChess;
+			productName = YLAnimalChess;
+			productReference = 2405CCF32004AA930092F12A /* YLAnimalChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2405CCEB2004AA930092F12A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lyl;
+				TargetAttributes = {
+					2405CCF22004AA930092F12A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2405CCEE2004AA930092F12A /* Build configuration list for PBXProject "YLAnimalChess" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2405CCEA2004AA930092F12A;
+			productRefGroup = 2405CCF42004AA930092F12A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2405CCF22004AA930092F12A /* YLAnimalChess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2405CCF12004AA930092F12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2405CD032004AA930092F12A /* LaunchScreen.storyboard in Resources */,
+				2405CD002004AA930092F12A /* Assets.xcassets in Resources */,
+				2405CCFE2004AA930092F12A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2405CCEF2004AA930092F12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2405CD102004B99F0092F12A /* YLBaseViewController.m in Sources */,
+				2405CCFB2004AA930092F12A /* ViewController.m in Sources */,
+				2405CD412005101A0092F12A /* BlueChess.m in Sources */,
+				2405CD2C2004BE710092F12A /* YLLeopard.m in Sources */,
+				2405CD292004BE460092F12A /* YLMouse.m in Sources */,
+				2405CD2F2004D3260092F12A /* YLChessViewController.m in Sources */,
+				2405CD202004BE000092F12A /* YLWolf.m in Sources */,
+				2405CD3B20050FF10092F12A /* GameClass.m in Sources */,
+				2405CD232004BE280092F12A /* YLDog.m in Sources */,
+				2405CD262004BE320092F12A /* YLCat.m in Sources */,
+				2405CD062004AA930092F12A /* main.m in Sources */,
+				2405CD3E2005100B0092F12A /* RedChess.m in Sources */,
+				2405CD132004B9C90092F12A /* YLAnimal.m in Sources */,
+				2405CD1D2004BDEF0092F12A /* YLTiger.m in Sources */,
+				2405CD372004E38F0092F12A /* YLImageView.m in Sources */,
+				2405CCF82004AA930092F12A /* AppDelegate.m in Sources */,
+				2405CD1A2004BDDB0092F12A /* YLLion.m in Sources */,
+				2405CD172004BD920092F12A /* YLElphent.m in Sources */,
+				2405CD342004D6490092F12A /* YLChessView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2405CCFC2004AA930092F12A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2405CCFD2004AA930092F12A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2405CD012004AA930092F12A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2405CD022004AA930092F12A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2405CD072004AA930092F12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2405CD082004AA930092F12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2405CD0A2004AA930092F12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU9NY9G8DF;
+				INFOPLIST_FILE = YLAnimalChess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.YLAnimalChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2405CD0B2004AA930092F12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU9NY9G8DF;
+				INFOPLIST_FILE = YLAnimalChess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.YLAnimalChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2405CCEE2004AA930092F12A /* Build configuration list for PBXProject "YLAnimalChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2405CD072004AA930092F12A /* Debug */,
+				2405CD082004AA930092F12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2405CD092004AA930092F12A /* Build configuration list for PBXNativeTarget "YLAnimalChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2405CD0A2004AA930092F12A /* Debug */,
+				2405CD0B2004AA930092F12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2405CCEB2004AA930092F12A /* Project object */;
+}

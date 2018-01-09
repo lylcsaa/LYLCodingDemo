@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ucF-WA-fbB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Esy-JW-53e">
+            <objects>
+                <navigationController id="ucF-WA-fbB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PNn-aB-jQX">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YBS-bZ-R9H"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OcD-Yq-BmU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1214" y="39"/>
+        </scene>
+        <!--游戏介绍-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nxg-RM-xt1">
+                                <rect key="frame" x="20" y="597" width="335" height="50"/>
+                                <color key="backgroundColor" red="0.57813411691100824" green="1" blue="0.81406999481105724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="NFn-pF-wGe"/>
+                                </constraints>
+                                <state key="normal" title="开始游戏">
+                                    <color key="titleColor" red="1" green="0.52192616307005257" blue="0.32675958607895605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xUf-A9-daY" kind="push" id="09V-rZ-MfY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93609314210000005" green="1" blue="0.68713023409999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Nxg-RM-xt1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bV8-5B-sHT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nxg-RM-xt1" secondAttribute="trailing" constant="20" id="rWJ-Nh-FfD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Nxg-RM-xt1" secondAttribute="bottom" constant="20" id="ufD-9T-X8b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="游戏介绍" id="LJa-E6-Vqg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471.19999999999999" y="39.130434782608695"/>
+        </scene>
+        <!--开始游戏-->
+        <scene sceneID="MbZ-pF-WQu">
+            <objects>
+                <viewController id="xUf-A9-daY" customClass="YLChessViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7hP-Uf-FZT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backImage" translatesAutoresizingMaskIntoConstraints="NO" id="JDw-EF-zh3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dzd-df-kgl" customClass="YLChessView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dzd-df-kgl" firstAttribute="leading" secondItem="vOZ-6s-WnS" secondAttribute="leading" id="027-Tu-Zsq"/>
+                            <constraint firstItem="dzd-df-kgl" firstAttribute="top" secondItem="vOZ-6s-WnS" secondAttribute="top" id="JbL-uN-Ftt"/>
+                            <constraint firstItem="vOZ-6s-WnS" firstAttribute="trailing" secondItem="dzd-df-kgl" secondAttribute="trailing" id="Jqp-dY-8WD"/>
+                            <constraint firstItem="vOZ-6s-WnS" firstAttribute="bottom" secondItem="JDw-EF-zh3" secondAttribute="bottom" id="UiA-91-Dnc"/>
+                            <constraint firstItem="vOZ-6s-WnS" firstAttribute="bottom" secondItem="dzd-df-kgl" secondAttribute="bottom" id="YXy-yT-nqy"/>
+                            <constraint firstItem="JDw-EF-zh3" firstAttribute="leading" secondItem="vOZ-6s-WnS" secondAttribute="leading" id="bw9-GV-rgH"/>
+                            <constraint firstItem="vOZ-6s-WnS" firstAttribute="trailing" secondItem="JDw-EF-zh3" secondAttribute="trailing" id="jcT-oU-L2M"/>
+                            <constraint firstItem="JDw-EF-zh3" firstAttribute="top" secondItem="7hP-Uf-FZT" secondAttribute="top" id="q2V-4N-FYm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vOZ-6s-WnS"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="开始游戏" id="61v-SX-1xm"/>
+                    <connections>
+                        <outlet property="chessView" destination="dzd-df-kgl" id="nko-EB-KD6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gTB-7n-SKX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="344.80000000000001" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backImage" width="758" height="1024"/>
+    </resources>
+</document>
