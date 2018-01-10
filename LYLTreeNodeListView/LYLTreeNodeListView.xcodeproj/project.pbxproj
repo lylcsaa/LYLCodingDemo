@@ -26,6 +26,7 @@
 		2458808A2002022F00CBBD58 /* LYLDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245880892002022F00CBBD58 /* LYLDrawLineViewController.m */; };
 		2458808E200208FA00CBBD58 /* LYLDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2458808D200208FA00CBBD58 /* LYLDrawView.m */; };
 		24588094200228C200CBBD58 /* LYLPoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 24588092200228C200CBBD58 /* LYLPoint.c */; };
+		2B77ECCD20036F0D007B5BBF /* LYLXRippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B77ECCC20036F0C007B5BBF /* LYLXRippleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,8 @@
 		2458808D200208FA00CBBD58 /* LYLDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLDrawView.m; sourceTree = "<group>"; };
 		24588092200228C200CBBD58 /* LYLPoint.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LYLPoint.c; sourceTree = "<group>"; };
 		24588093200228C200CBBD58 /* LYLPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLPoint.h; sourceTree = "<group>"; };
+		2B77ECCB20036F0C007B5BBF /* LYLXRippleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLXRippleViewController.h; sourceTree = "<group>"; };
+		2B77ECCC20036F0C007B5BBF /* LYLXRippleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLXRippleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				245880862001FE8600CBBD58 /* LYLTreeViewController.m */,
 				245880882002022F00CBBD58 /* LYLDrawLineViewController.h */,
 				245880892002022F00CBBD58 /* LYLDrawLineViewController.m */,
+				2B77ECCB20036F0C007B5BBF /* LYLXRippleViewController.h */,
+				2B77ECCC20036F0C007B5BBF /* LYLXRippleViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 				2432F4DB1FFD0C15000DCCFA /* LYLTreeListView.m in Sources */,
 				245880872001FE8600CBBD58 /* LYLTreeViewController.m in Sources */,
 				2432F4DE1FFD0D48000DCCFA /* LYLNodeItem.m in Sources */,
+				2B77ECCD20036F0D007B5BBF /* LYLXRippleViewController.m in Sources */,
 				2432F4BC1FFD0A53000DCCFA /* ViewController.m in Sources */,
 				2432F4E11FFD1A39000DCCFA /* LYLNode.m in Sources */,
 				2432F4C71FFD0A53000DCCFA /* main.m in Sources */,
