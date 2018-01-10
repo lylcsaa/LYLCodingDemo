@@ -7,7 +7,8 @@
 //
 
 #import "LYLXRippleViewController.h"
-
+#import "LYLXRippleView.h"
+#import "LYLCloseMenu.h"
 @interface LYLXRippleViewController ()
 
 @end
@@ -17,7 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
+//    LYLXRippleView *view = [[LYLXRippleView alloc] initWithFrame:self.view.bounds];
+//    [self.view addSubview:view];
+    LYLCloseMenu *menu = [[LYLCloseMenu alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:menu];
 }
 
 - (void)didReceiveMemoryWarning {

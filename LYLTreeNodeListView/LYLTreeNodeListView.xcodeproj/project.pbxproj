@@ -26,6 +26,8 @@
 		2458808A2002022F00CBBD58 /* LYLDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245880892002022F00CBBD58 /* LYLDrawLineViewController.m */; };
 		2458808E200208FA00CBBD58 /* LYLDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2458808D200208FA00CBBD58 /* LYLDrawView.m */; };
 		24588094200228C200CBBD58 /* LYLPoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 24588092200228C200CBBD58 /* LYLPoint.c */; };
+		2B4DFD902005E7E90052B524 /* LYLXRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DFD8F2005E7E90052B524 /* LYLXRippleView.m */; };
+		2B4DFD942005F2750052B524 /* LYLCloseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DFD932005F2750052B524 /* LYLCloseMenu.m */; };
 		2B77ECCD20036F0D007B5BBF /* LYLXRippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B77ECCC20036F0C007B5BBF /* LYLXRippleViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,10 @@
 		2458808D200208FA00CBBD58 /* LYLDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLDrawView.m; sourceTree = "<group>"; };
 		24588092200228C200CBBD58 /* LYLPoint.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LYLPoint.c; sourceTree = "<group>"; };
 		24588093200228C200CBBD58 /* LYLPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLPoint.h; sourceTree = "<group>"; };
+		2B4DFD8E2005E7E90052B524 /* LYLXRippleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLXRippleView.h; sourceTree = "<group>"; };
+		2B4DFD8F2005E7E90052B524 /* LYLXRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLXRippleView.m; sourceTree = "<group>"; };
+		2B4DFD922005F2750052B524 /* LYLCloseMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLCloseMenu.h; sourceTree = "<group>"; };
+		2B4DFD932005F2750052B524 /* LYLCloseMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLCloseMenu.m; sourceTree = "<group>"; };
 		2B77ECCB20036F0C007B5BBF /* LYLXRippleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLXRippleViewController.h; sourceTree = "<group>"; };
 		2B77ECCC20036F0C007B5BBF /* LYLXRippleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLXRippleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +101,8 @@
 		2432F4B61FFD0A52000DCCFA /* LYLTreeNodeListView */ = {
 			isa = PBXGroup;
 			children = (
+				2B4DFD952005F27B0052B524 /* LYLCloseMenu */,
+				2B4DFD912005E7F10052B524 /* LYLXRippleView */,
 				2458808B200208D300CBBD58 /* LYLDrawLine */,
 				245880842001FE6200CBBD58 /* Controllers */,
 				2432F4CD1FFD0A5D000DCCFA /* LYLTreeListView */,
@@ -161,6 +169,24 @@
 				24588093200228C200CBBD58 /* LYLPoint.h */,
 			);
 			path = LYLDrawLine;
+			sourceTree = "<group>";
+		};
+		2B4DFD912005E7F10052B524 /* LYLXRippleView */ = {
+			isa = PBXGroup;
+			children = (
+				2B4DFD8E2005E7E90052B524 /* LYLXRippleView.h */,
+				2B4DFD8F2005E7E90052B524 /* LYLXRippleView.m */,
+			);
+			path = LYLXRippleView;
+			sourceTree = "<group>";
+		};
+		2B4DFD952005F27B0052B524 /* LYLCloseMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2B4DFD922005F2750052B524 /* LYLCloseMenu.h */,
+				2B4DFD932005F2750052B524 /* LYLCloseMenu.m */,
+			);
+			path = LYLCloseMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +266,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2458808A2002022F00CBBD58 /* LYLDrawLineViewController.m in Sources */,
+				2B4DFD942005F2750052B524 /* LYLCloseMenu.m in Sources */,
 				24588094200228C200CBBD58 /* LYLPoint.c in Sources */,
 				2432F4E61FFD28BE000DCCFA /* LYLNodeDataSource.m in Sources */,
 				2432F4DB1FFD0C15000DCCFA /* LYLTreeListView.m in Sources */,
 				245880872001FE8600CBBD58 /* LYLTreeViewController.m in Sources */,
+				2B4DFD902005E7E90052B524 /* LYLXRippleView.m in Sources */,
 				2432F4DE1FFD0D48000DCCFA /* LYLNodeItem.m in Sources */,
 				2B77ECCD20036F0D007B5BBF /* LYLXRippleViewController.m in Sources */,
 				2432F4BC1FFD0A53000DCCFA /* ViewController.m in Sources */,
